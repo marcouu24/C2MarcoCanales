@@ -18,7 +18,7 @@ document.querySelector("#registrar-btn").addEventListener("click", async ()=>{
     }else if(hora===""){
         errores.push ("Debe ingresar una hora");
     }else if(hora.length!=5 || hora.charAt(2)!=':'){
-        errores.push("Debe ingresar una hora valida con este formato (HH:MM)");
+        errores.push("Debe ingresar una hora valida con formato(HH:MM)");
     }
   
 
